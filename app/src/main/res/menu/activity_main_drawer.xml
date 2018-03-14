@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_yuklemeler"
+            android:icon="@drawable/delivery"
+            android:title="Yüklemeler" />
+        <item
+            android:id="@+id/nav_yuklemedetay"
+            android:icon="@drawable/barcode"
+            android:title="Barkodlar" />
+    </group>
+
+    <item android:title="Bilgi Güncelleme">
+        <menu>
+            <item
+                android:id="@+id/nav_sunucudanal"
+                android:icon="@drawable/ic_get_app"
+                android:title="Sunucudan Al" />
+            <item
+                android:id="@+id/nav_sunucuyagonder"
+                android:icon="@drawable/file_upload"
+                android:title="Sunucuya Gönder" />
+        </menu>
+    </item>
+
+</menu>

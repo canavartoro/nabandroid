@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">UyumSoft</string>
+    <string name="title_activity_login">Giriş</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Kullanıcı</string>
+    <string name="prompt_password">Parola</string>
+    <string name="action_sign_in">Giriş</string>
+    <string name="action_sign_in_short">Giriş</string>
+    <string name="error_invalid_email">Kullanıcı adı geçersiz!</string>
+    <string name="error_invalid_password">Parola çok kısa</string>
+    <string name="error_incorrect_password">Parola hatalı</string>
+    <string name="error_field_required">Zorunlu alanları doldurun</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main">UyumSoft</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Ayarlar</string>
+    <integer name="viewfinder_border_width">4</integer>
+    <integer name="viewfinder_border_length">60</integer>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_detay">DetayActivity</string>
+</resources>
